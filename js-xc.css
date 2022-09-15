@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    background-color: palegoldenrod;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: peachpuff;
+}
+html,body {
+    height: 100%;
+}
+.fa {
+    width: 100%;
+    height: 100%;
+    position: relative;
+        perspective: 1000px;
+    margin-top: 50px;
+}
+.fa>#xc {
+    width: 900px;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+}
+.fa>#xc img {
+    width: 20%;
+    position: absolute;
+    border: 1px dotted purple;
+}
+.fa #xc #jpg-01 {
+    top: 50px;
+    left: 100px;
+    transform: rotateZ(30deg);
+}
+.fa #xc #jpg-02 {
+    top: 200px;
+    left: 200px;
+    transform: rotateZ(-30deg);
+}
+.fa #xc #jpg-03 {
+    top: 100px;
+    left: 300px;
+    transform: rotateZ(10deg);
+}
+.fa #xc #jpg-04 {
+    top: 50px;
+    left: 500px;
+    transform: rotateZ(-20deg);
+}
+.fa #xc #jpg-05 {
+    top: 300px;
+    left: 250px;
+    transform: rotateZ(20deg);
+}
+.fa #xc #jpg-06 {
+    top: 290px;
+    left: 100px;
+    transform: rotateZ(-10deg);
+}
+.fa #xc #jpg-07 {
+    top: 280px;
+    left: 500px;
+    transform: rotateZ(30deg);
+}
+.fa #xc #jpg-08 {
+    top: 240px;
+    left: 650px;
+    transform: rotateZ(10deg);
+}
+.fa #xc #jpg-09 {
+    top: 250px;
+    left: 400px;
+    transform: rotateZ(-20deg);
+}
+.fa #xc #jpg-10{
+    top: 430px;
+    left: 320px;
+    transform: rotateZ(-10deg);
+}
+.fa>#bigimg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* css3 */
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 100;
+    visibility: hidden;
+}
+.fa>#bigimg img {
+    height: 400px;
+    vertical-align: bottom;
+}
